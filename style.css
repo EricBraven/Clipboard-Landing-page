@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h3{
+   font-size:35px;
+   margin:3vh 5vw;
+   color:black;
+}
+
+p{
+    font-size:18px;
+    margin:3vh 3vw;
+    color:var(--Grayish-Blue);
+}
+
+button{
+    font-size:16px;
+}
+
+img{
+    width:auto;
+    margin:5vh 0 0;
+}
+
+.computer,
+.devices{
+    width:90%;
+}
+header{
+    padding:15vh 0 0vh;
+    background-image:url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+   margin:0 0 5vh;
+}
+
+header h3{
+    margin:4vh 0;
+}
+
+header p{
+    margin:5vh 0;
+}
+
+/* header div{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+} */
+
+header button{
+    margin:vh 0;
+    padding:15px 40px;
+    border-radius:30px;
+    outline:none;
+}
+
+
+.btn1{
+    background-color:var(--Strong-Cyan);
+    color:#fff;
+    padding:15px 40px;
+    border-radius:30px;
+    margin:10vh 0 0;
+}
+
+.btn2{
+    background-color:var(--Light-Blue);
+    color:#fff;
+    margin-bottom:5vh;
+    padding:15px 40px;
+    border-radius:30px;
+    margin:3vh 0 10vh;
+}
+
+.body-content .div{
+    margin:20vh 0;
+    /* border:2px solid red; */
+}
+
+.companies{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:10vh 0;
+}
+
+.companies img{
+    margin:5vh 0;
+}
+
+.body-content .btn{
+    margin:4vh 0;
+}
+
+footer{
+    background:var(--Grayish-Blue);
+    line-height:2rem;
+}
+
+
+footer img{
+    margin:3vh 0 4vh;
+}
+
+footer div img{
+    margin:7vh 4vw;
+}
+
+button:hover{
+    opacity:.7;
+    transition: opacity 2s;
+}
+
+footer h4:hover{
+    color:var(--Strong-Cyan);
+    transition: color 2s;
+}
+
+/* footer .footer-icon img:hover{
+    color:var(--Strong-Cyan);
+    transition: color 2s;
+} */
+
+@media(max-width:375px){
+    h3{
+        font-size:35px;
+        margin:3vh 5vw;
+     }
+     
+     p{
+         font-size:18px;
+         margin:3vh 3vw;
+     }
+     
+     button{
+         font-size:16px;
+     }
+     
+     img{
+         width:auto;
+         margin:5vh 0 0;
+     }
+     
+     /* .computer,
+     .devices{
+         width:90%;
+     } */
+     header{
+         padding:15vh 0 0vh;
+         background-image:url(images/bg-header-mobile.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     
+     header img{
+        margin:0 0 5vh;
+     }
+     
+     header h3{
+         margin:4vh 0;
+     }
+     
+     header p{
+         margin:5vh 0;
+     }
+     
+     header div{
+         display:flex;
+         flex-direction: column;
+         justify-content:space-between;
+         align-items: center;
+     }
+     
+     header button{
+         margin:1vh 0;
+         padding:15px 40px;
+         border-radius:30px;
+         outline:none;
+     }
+     
+     
+     .btn1{
+         background-color:var(--Strong-Cyan);
+         color:#fff;
+         padding:15px 40px;
+         border-radius:30px;
+         margin:10vh 0 0;
+     }
+     
+     .btn2{
+         background-color:var(--Light-Blue);
+         color:#fff;
+         margin-bottom:5vh;
+         padding:15px 40px;
+         border-radius:30px;
+         margin:3vh 0 30vh;
+     }
+     
+     .body-content div{
+         margin:20vh 0;
+     }
+     
+     .companies{
+         display:flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         margin:10vh 0;
+     }
+     
+     .companies img{
+         margin:5vh 0;
+     }
+     
+     .body-content .btn{
+         margin:4vh 0;
+     }
+     
+     footer{
+         background:var(--Grayish-Blue);
+         line-height:2rem;
+     }
+     
+     
+     footer img{
+         margin:3vh 0 4vh;
+     }
+     
+     footer div img{
+         margin:7vh 4vw;
+     }
+}
+
+@media(min-width:1440px){
+    h3{
+        font-size:55px;
+    }
+    
+    p{
+        margin: 0 0vw;
+        font-size:30px;
+        /* border:2px solid black; */
+        padding:10px 2vw;
+    }
+
+    .computer,
+    .devices{
+        width:100%;
+    }
+ 
+    button{
+        padding:20px 30px;
+        border-radius:30px;
+        font-size:20px;
+    }
+
+    header{
+        background-image: url(images/bg-header-desktop.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+
+    header p{
+        margin: 0 20vw;
+        font-size:30px;
+    }
+
+    header .btn1{
+        margin:10vh 3vw;
+    }
+
+    header .header-content{
+        background:rgba(255, 255, 255,.2);
+    }
+
+    .body-content p{
+        margin:0 0vw;
+        font-size:25px;
+    }
+
+    .body-content h3{
+        font-size:27px;
+    }
+
+    .body-content .p{
+        margin:0 15vw;
+    }
+
+    .body-content .flex{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        flex-direction: row;
+        position: relative;
+        /* border:2px solid black; */
+        padding:0 5vw;
+        text-align: center;
+        margin:15vh 0;
+    }
+
+    .computer{
+        position: relative;
+        left:-8vw;
+    }
+    
+    .btn2{
+        margin:0 3vw;
+    }
+
+    .flex{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        text-align: left;
+        width:100%;
+        flex-direction: row;
+        position: relative;
+        /* border:2px solid black; */
+        padding:0 5vw;
+        margin:15vh 0 0;
+        font-size:20px;
+    }
+
+    .flex .h4{
+        position: relative;
+        top:-20px;
+    }
+
+    .flex div img{
+        margin:0 20px;
+    }
+    
+}
